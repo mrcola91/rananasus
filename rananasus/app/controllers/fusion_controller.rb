@@ -1,4 +1,12 @@
 class FusionController < ApplicationController
+  
+  def new
+  	@species = Species.new
+  end
+
+  def create
+  end
+
   def fuse
     genus = params[:genus]
     first_species = params[:species][0]
