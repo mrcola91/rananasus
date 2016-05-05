@@ -5,10 +5,10 @@ class Species < ActiveRecord::Base
 
   ALL_SPECIES = [
     :rananasus,
-    :tuna,
+    :albacore_tuna,
     :leopard,
     :tiger,
-    :tyrannasaurus,
+    :rex,
     :indominus,
     :pteradactyl
   ]
