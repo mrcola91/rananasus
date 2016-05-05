@@ -1,0 +1,3 @@
+class FusionController < ApplicationController
+
+end
